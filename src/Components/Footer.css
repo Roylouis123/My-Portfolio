@@ -1,0 +1,146 @@
+
+
+.footer-container{
+    border: purple 2px solid;
+    width: 100%;
+    
+}
+
+
+.footer-heading{
+    text-align: center;
+    color: aliceblue;
+    margin-bottom: 50px;
+}
+
+.footerimg {
+    height: 40px;
+    width: 40px;
+  }
+
+  .footerimg img{
+    transition: 1s ease;
+    }
+  .footerimg:hover{
+    -webkit-transform: scale(1.6);
+    -ms-transform: scale(1.6);
+    transform: scale(1.6);
+    transition: 1s ease;
+  }
+  
+  .footerimgcontainer {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .footertext {
+    text-align: center;
+    font-family: Montserrat;
+  }
+
+  
+
+
+  .contact-section{
+    height: 100vh;
+    display: flex;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+   
+}
+
+.contact-form input, .contact-form textarea{
+  width: 75%;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid #fff;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  text-transform: capitalize;
+  color: #fff;
+  padding: 5px 10px;
+}
+
+::placeholder{
+    color: #fff;
+}
+
+#msg{
+    height: 280px;
+    resize: none;
+    font-family: sans-serif;
+}
+
+.form-submit-btn{
+    background: #ff4f4f;
+    color: #fff;
+    text-transform: capitalize;
+    padding: 15px 40px;
+    display: block;
+    margin: auto;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 0px;
+}
+
+.map{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    border: 2px solid #fff;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+}
+
+.map, iframe{
+    width: 430px;
+    height: 430px;
+    border-radius: 5px;
+}
+
+@media (max-width: 600px) {
+
+  .footer-container{
+   
+    width: 100%;
+    
+}
+
+  .contact-section{
+    height: 100vh;
+    display: flex;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    margin-bottom: 350px;
+   
+}
+
+
+
+  .contact-form input, .contact-form textarea{
+    width: 93%;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid #fff;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    color: #fff;
+    padding: 5px 10px;
+}
+
+.contact-section{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 50px;
+}
+
+  .map, iframe{
+    width: 345px;
+    height: 330px;
+    border-radius: 5px;
+}
+}
