@@ -22,7 +22,7 @@ function Navbar() {
           <i className="fa fa-bars"></i>
         </label>
         <a href="#home">
-          <h1 className="logo"> ROY</h1>
+          <h1 className="logo">ROY</h1>
         </a>
         <input type="checkbox" id="chkToggle"></input>
         <ul className="main-nav" id="js-menu">
@@ -30,13 +30,13 @@ function Navbar() {
             <a href="#home">Home</a>
           </li>
           <li>
-            <a href="#aboutme">About Me</a>
-          </li>
-          <li>
             <a href="#skills">Skills</a>
           </li>
           <li>
             <a href="#project">Project</a>
+          </li>
+          <li>
+            <a href="#aboutme">About Me</a>
           </li>
           <li>
             <a href="#contact">contact</a>
