@@ -28,7 +28,7 @@ const Footor = () => {
 
 
   return (
-    <div className='footer-container'>
+    <div id='contact' className='footer-container'>
       <h1 className='footer-heading'>Contact</h1>
       
               
@@ -48,51 +48,9 @@ const Footor = () => {
     </div>
     </div>
     
-   
-    
+          <div><h3 className='footer-end'>Made With<span className='heart'> &#10084; </span>
 
-
-
-
-
-      <div className="footerimgcontainer">
-            <div>
-              <img
-                src={require("../Assets/Icons1/gmail.png")}
-                className="footerimg"
-                alt=""
-              ></img>
-            </div>
-            <div>
-              <img
-                src={require("../Assets/Icons1/github.png")}
-                className="footerimg"
-                alt=""
-              ></img>
-            </div>
-            <div>
-              <img
-                src={require("../Assets/Icons1/linkedin.png")}
-                className="footerimg"
-                alt=""
-              ></img>
-            </div>
-            <div>
-              <img
-                src={require("../Assets/Icons1/telegram.png")}
-                className="footerimg"
-                alt=""
-              ></img>
-            </div>
-            <div>
-              <img
-                src={require("../Assets/Icons1/whatsapp.png")}
-                className="footerimg"
-                alt=""
-              ></img>
-            </div>
-          </div>
-          <div><h3>Made With by Royston Louis</h3></div>
+by Royston Louis</h3></div>
     </div>
 
     

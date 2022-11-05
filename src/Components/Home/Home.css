@@ -5,7 +5,7 @@
 
 body{
   width: 100%;
-  background: linear-gradient(90.08deg, #3208ba -45.15%, #d40f3d 42.77%);
+  background: #0433a0;
   overflow-x: hidden;
   
   scroll-behavior: smooth;
@@ -206,6 +206,8 @@ body{
 
 
 
+
+
 @media (max-width: 600px) {
 
 
@@ -238,6 +240,9 @@ body{
     height: 990px;
    
   }
+  .education-gap{
+    margin-left: 90px;
+}
 
 }
 
@@ -391,6 +396,10 @@ transition: 0.5s ease;
     width: 100%;
     
   }
+
+
+ 
+
 
 
 

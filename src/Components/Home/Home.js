@@ -12,7 +12,7 @@ const Home = () => {
         <div class="title-inner">
           
           <div>
-            <h2>Hi, Myself Royston</h2>
+            <h2>Hi, I am Royston</h2>
           </div>
           <br></br>
           <div>Connect with Me</div>
@@ -58,7 +58,7 @@ const Home = () => {
            
             </div>
             <div>
-              <a href="https://wa.me/9535941283">
+              <a href="https://t.me/Roylouis">
                 <img
                   src={require("../../Assets/Icons1/telegram.png")}
                   className="contact-img"
@@ -92,7 +92,7 @@ const Home = () => {
               <h1 class="heading">
                 <span className="aboutme-sub-heading">
                 &emsp;Experience
-                 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;    Education
+                     <span className='education-gap'>Education</span>
                 </span>
               </h1>
 
@@ -234,6 +234,7 @@ const Home = () => {
               src={require("../../Assets/Images/imbd.png")}
               alt=""
             ></img>
+
           </div>
 
           <div className="cardboy">

@@ -1,16 +1,10 @@
 
 
-.footer-container{
-    border: purple 2px solid;
-    width: 100%;
-    
-}
-
 
 .footer-heading{
     text-align: center;
     color: aliceblue;
-    margin-bottom: 50px;
+    margin: 50px;
 }
 
 .footerimg {
@@ -98,6 +92,18 @@
     width: 430px;
     height: 430px;
     border-radius: 5px;
+}
+
+.footer-end{
+   display: flex;
+   justify-content: center;
+   margin-top: 10px;
+   color: #fff;
+   font-size: 25px;
+}
+
+.heart{
+  color: red;
 }
 
 @media (max-width: 600px) {
